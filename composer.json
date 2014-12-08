@@ -1,0 +1,29 @@
+{
+    "name": "sandrobilbeisi/SpressSitemapXML",
+    "type": "spress-plugin",
+    "description": "Generates Google XML Sitemaps",
+    "keywords": ["spress", "plugin" , "HTML5" , "sitemap" , "xml" , "google" , "bing" ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sandro Bilbeisi",
+            "email": "sandro.bilbeisi@gmail.com",
+            "homepage": "http://sandrobilbeisi.net"
+        }
+    ],
+    "require": {
+        "yosymfony/spress-installer": "~1.0"
+    },
+    "extra": {
+        "spress_name": "SpressSitemapXML",
+        "spress_class": "SpressPlugins\\SpressSitemapXML\\SpressSitemapXML",
+       "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "SpressPlugins\\SpressSitemapXML\\": ""
+        }
+    }
+}
