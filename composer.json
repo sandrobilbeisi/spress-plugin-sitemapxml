@@ -1,5 +1,5 @@
 {
-    "name": "sandrobilbeisi/SpressSitemapXML",
+    "name": "sandrobilbeisi/spress-plugin-sitemapxml",
     "type": "spress-plugin",
     "description": "Generates Google XML Sitemaps",
     "keywords": ["spress", "plugin" , "HTML5" , "sitemap" , "xml" , "google" , "bing" ],
